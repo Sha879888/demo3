@@ -1,0 +1,81 @@
+body {
+  overflow: hidden;
+  user-select: none;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.LoginForm {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.LoginForm input {
+  outline: none;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: rgb(204, 150, 88);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img {
+  #background-image: url(../Медиа/_0.png);
+}
+
+.OrdersContainer {
+  overflow-y: scroll;
+  max-height: 750px;
+  min-width: 600px;
+}
+
+.OrdersContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.Order {
+  display: flex;
+  margin: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 100px;
+  padding: 5px;
+}
+
+.CreateOrders {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.CreateOrders input {
+  outline: none;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 5px;
+}
